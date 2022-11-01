@@ -1,0 +1,8 @@
+POST http://127.0.0.1:8000/snippets/ HTTP/1.1
+Content-Type: application/json
+# Authorization: Basic admin:Mm111111
+
+{
+    "code": "print('Hello')",
+    "owner": 1
+}
