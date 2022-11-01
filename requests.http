@@ -1,8 +1,17 @@
+### Add a snippet
 POST http://127.0.0.1:8000/snippets/ HTTP/1.1
 Content-Type: application/json
-# Authorization: Basic admin:Mm111111
+Authorization: Basic admin:Mm111111
 
 {
     "code": "print('Hello')",
     "owner": 1
 }
+
+
+### List Snippet
+http://127.0.0.1:8000/snippets/ HTTP/1.1
+
+
+### Single Snippet Detail
+http://127.0.0.1:8000/snippets/1 HTTP/1.1
